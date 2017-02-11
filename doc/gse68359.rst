@@ -1,0 +1,468 @@
+==========
+1.GSE68359
+==========
+
+* Please cite the following paper : Mohammed H, Russell IA, Stark R, Rueda OM et al.
+    Progesterone receptor modulates ERα action in breast cancer. Nature 2015 Jul 16;523(7560):313-7. PMID: 26153859
+
+* ``Title`` : Progesterone receptor directs a distinct estrogen receptor-alpha chromatin binding profile in breast cancer to elicit good clinical outcome.
+    
+* ``Organism`` : Homo sapiens.
+
+* ``Experiment type`` : Genome binding/occupancy profiling by high throughput sequencing, Expression profiling by high throughput sequencing.
+
+1-1.ChIP-Seq
+^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 5 30 10 15
+   :header-rows: 1
+
+   * - No
+     - Sample
+     - Genome
+     - Visualization
+   * - 1
+     - MCF7_ER_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1523_MCF7_ER_Full_Media_3hr-r1.CH.hg38.bigWig>`_
+   * - 2
+     - MCF7_ER_Progesterone_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_Progesterone_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1524_MCF7_ER_Progesterone_3hr-r1.CH.hg38.bigWig>`_
+   * - 3
+     - MCF7_ER_R5020_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_R5020_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1525_MCF7_ER_R5020_3hr-r1.CH.hg38.bigWig>`_
+   * - 4
+     - MCF7_PR_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1526_MCF7_PR_Full_Media_3hr-r1.CH.hg38.bigWig>`_
+   * - 5
+     - MCF7_PR_Progesterone_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_Progesterone_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1527_MCF7_PR_Progesterone_3hr-r1.CH.hg38.bigWig>`_
+   * - 6
+     - MCF7_PR_R5020_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_R5020_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1528_MCF7_PR_R5020_3hr-r1.CH.hg38.bigWig>`_
+   * - 7
+     - MCF7_p300_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1529_MCF7_p300_Full_Media_3hr-r1.CH.hg38.bigWig>`_
+   * - 8
+     - MCF7_p300_Progesterone_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_Progesterone_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1530_MCF7_p300_Progesterone_3hr-r1.CH.hg38.bigWig>`_
+   * - 9
+     - MCF7_p300_R5020_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_R5020_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1531_MCF7_p300_R5020_3hr-r1.CH.hg38.bigWig>`_
+   * - 10
+     - MCF7_Input_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_Input_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1532_MCF7_Input_Full_Media_3hr-r1.CH.hg38.bigWig>`_
+   * - 11
+     - MCF7_ER_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1533_MCF7_ER_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 12
+     - MCF7_ER_Progesterone_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_Progesterone_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1534_MCF7_ER_Progesterone_3hr-r2.CH.hg38.bigWig>`_
+   * - 13
+     - MCF7_ER_R5020_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_R5020_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1535_MCF7_ER_R5020_3hr-r2.CH.hg38.bigWig>`_
+   * - 14
+     - MCF7_PR_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1536_MCF7_PR_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 15
+     - MCF7_PR_Progesterone_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_Progesterone_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1537_MCF7_PR_Progesterone_3hr-r2.CH.hg38.bigWig>`_
+   * - 16
+     - MCF7_PR_R5020_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_R5020_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1538_MCF7_PR_R5020_3hr-r2.CH.hg38.bigWig>`_
+   * - 17
+     - MCF7_p300_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1539_MCF7_p300_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 18
+     - MCF7_p300_Progesterone_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_Progesterone_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1540_MCF7_p300_Progesterone_3hr-r2.CH.hg38.bigWig>`_
+   * - 19
+     - MCF7_p300_R5020_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_R5020_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1541_MCF7_p300_R5020_3hr-r2.CH.hg38.bigWig>`_
+   * - 20
+     - MCF7_Input_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_Input_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1542_MCF7_Input_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 21
+     - MCF7_ER_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1543_MCF7_ER_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+   * - 22
+     - MCF7_ER_Progesterone_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_Progesterone_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1544_MCF7_ER_Progesterone_3hr-r3.CH.hg38.bigWig>`_
+   * - 23
+     - MCF7_ER_R5020_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_ER_R5020_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1545_MCF7_ER_R5020_3hr-r3.CH.hg38.bigWig>`_
+   * - 24
+     - MCF7_PR_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1546_MCF7_PR_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+   * - 25
+     - MCF7_PR_Progesterone_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_Progesterone_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1547_MCF7_PR_Progesterone_3hr-r3.CH.hg38.bigWig>`_
+   * - 26
+     - MCF7_PR_R5020_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_PR_R5020_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1548_MCF7_PR_R5020_3hr-r3.CH.hg38.bigWig>`_
+   * - 27
+     - MCF7_p300_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1549_MCF7_p300_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+   * - 28
+     - MCF7_p300_Progesterone_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_Progesterone_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1550_MCF7_p300_Progesterone_3hr-r3.CH.hg38.bigWig>`_
+   * - 29
+     - MCF7_p300_R5020_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_p300_R5020_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1551_MCF7_p300_R5020_3hr-r3.CH.hg38.bigWig>`_
+   * - 30
+     - MCF7_Input_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_Input_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1552_MCF7_Input_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+   * - 31
+     - T47D_ER_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1553_T47D_ER_Full_Media_3hr-r1.CH.SE.hg38.bigWig>`_
+   * - 32
+     - T47D_ER_Progesterone_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_Progesterone_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1554_T47D_ER_Progesterone_3hr-r1.CH.hg38.bigWig>`_
+   * - 33
+     - T47D_ER_R5020_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_R5020_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1555_T47D_ER_R5020_3hr-r1.CH.hg38.bigWig>`_
+   * - 34
+     - T47D_PR_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1556_T47D_PR_Full_Media_3hr-r1.CH.hg38.bigWig>`_
+   * - 35
+     - T47D_PR_Progesterone_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_Progesterone_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1557_T47D_PR_Progesterone_3hr-r1.CH.hg38.bigWig>`_
+   * - 36
+     - T47D_PR_R5020_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_R5020_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1558_T47D_PR_R5020_3hr-r1.CH.hg38.bigWig>`_
+   * - 37
+     - T47D_p300_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1559_T47D_p300_Full_Media_3hr-r1.CH.hg38.bigWig>`_
+   * - 38
+     - T47D_p300_Progesterone_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_Progesterone_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1560_T47D_p300_Progesterone_3hr-r1.CH.hg38.bigWig>`_
+   * - 39
+     - T47D_p300_R5020_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_R5020_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1561_T47D_p300_R5020_3hr-r1.CH.hg38.bigWig>`_
+   * - 40
+     - T47D_Input_FullMedia_3hr-r1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_Input_FullMedia_3hr-r1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1562_T47D_Input_Full_Media_3hr-r1.CH.hg38.bigWig>`_
+   * - 41
+     - T47D_ER_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1563_T47D_ER_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 42
+     - T47D_ER_Progesterone_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_Progesterone_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1564_T47D_ER_Progesterone_3hr-r2.CH.hg38.bigWig>`_
+   * - 43
+     - T47D_ER_R5020_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_R5020_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1565_T47D_ER_R5020_3hr-r2.CH.hg38.bigWig>`_
+   * - 44
+     - T47D_PR_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1566_T47D_PR_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 45
+     - T47D_PR_Progesterone_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_Progesterone_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1567_T47D_PR_Progesterone_3hr-r2.CH.hg38.bigWig>`_
+   * - 46
+     - T47D_PR_R5020_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_R5020_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1568_T47D_PR_R5020_3hr-r2.CH.hg38.bigWig>`_
+   * - 47
+     - T47D_p300_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1569_T47D_p300_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 48
+     - T47D_p300_Progesterone_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_Progesterone_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1570_T47D_p300_Progesterone_3hr-r2.CH.hg38.bigWig>`_
+   * - 49
+     - T47D_p300_R5020_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_R5020_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1571_T47D_p300_R5020_3hr-r2.CH.hg38.bigWig>`_
+   * - 50
+     - T47D_Input_FullMedia_3hr-r2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_Input_FullMedia_3hr-r2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1572_T47D_Input_Full_Media_3hr-r2.CH.hg38.bigWig>`_
+   * - 51
+     - T47D_ER_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1573_T47D_ER_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+   * - 52
+     - T47D_ER_Progesterone_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_Progesterone_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1574_T47D_ER_Progesterone_3hr-r3.CH.hg38.bigWig>`_
+   * - 53
+     - T47D_ER_R5020_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_ER_R5020_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1575_T47D_ER_R5020_3hr-r3.CH.hg38.bigWig>`_
+   * - 54
+     - T47D_PR_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1576_T47D_PR_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+   * - 55
+     - T47D_PR_Progesterone_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_Progesterone_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1577_T47D_PR_Progesterone_3hr-r3.CH.hg38.bigWig>`_
+   * - 56
+     - T47D_PR_R5020_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_PR_R5020_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1578_T47D_PR_R5020_3hr-r3.CH.hg38.bigWig>`_
+   * - 57
+     - T47D_p300_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1579_T47D_p300_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+   * - 58
+     - T47D_p300_Progesterone_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_Progesterone_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1580_T47D_p300_Progesterone_3hr-r3.CH.hg38.bigWig>`_
+   * - 59
+     - T47D_p300_R5020_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_p300_R5020_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1581_T47D_p300_R5020_3hr-r3.CH.hg38.bigWig>`_
+   * - 60
+     - T47D_Input_FullMedia_3hr-r3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_Input_FullMedia_3hr-r3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/JC1582_T47D_Input_Full_Media_3hr-r3.CH.hg38.bigWig>`_
+
+1-2.RNA-Seq
+^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 5 30 10 15
+   :header-rows: 1
+
+   * - No
+     - Sample
+     - Genome
+     - Visualization
+   * - 1
+     - MCF7_E2+Progesterone_3hr_Rep1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep1.RN.hg38.bigWig>`_
+   * - 2
+     - MCF7_E2+Progesterone_3hr_Rep2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep2.RN.hg38.bigWig>`_
+   * - 3
+     - MCF7_E2+Progesterone_3hr_Rep3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep3.RN.hg38.bigWig>`_
+   * - 4
+     - MCF7_E2+Progesterone_3hr_Rep4
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep4%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep4.RN.hg38.bigWig>`_
+   * - 5
+     - MCF7_E2+Progesterone_3hr_Rep5
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep5%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep5.RN.hg38.bigWig>`_
+   * - 6
+     - MCF7_E2+Progesterone_3hr_Rep6
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep6%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep6.RN.hg38.bigWig>`_
+   * - 7
+     - MCF7_E2+Progesterone_3hr_Rep7
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep7%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep7.RN.hg38.bigWig>`_
+   * - 8
+     - MCF7_E2+Progesterone_3hr_Rep8
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+Progesterone_3hr_Rep8%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+Progesterone_3hr_Rep8.RN.hg38.bigWig>`_
+   * - 9
+     - MCF7_E2+R5020_3hr_Rep1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep1.RN.hg38.bigWig>`_
+   * - 10
+     - MCF7_E2+R5020_3hr_Rep2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep2.RN.hg38.bigWig>`_
+   * - 11
+     - MCF7_E2+R5020_3hr_Rep3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep3.RN.hg38.bigWig>`_
+   * - 12
+     - MCF7_E2+R5020_3hr_Rep4
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep4%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep4.RN.hg38.bigWig>`_
+   * - 13
+     - MCF7_E2+R5020_3hr_Rep5
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep5%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep5.RN.hg38.bigWig>`_
+   * - 14
+     - MCF7_E2+R5020_3hr_Rep6
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep6%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep6.RN.hg38.bigWig>`_
+   * - 15
+     - MCF7_E2+R5020_3hr_Rep7
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep7%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep7.RN.hg38.bigWig>`_
+   * - 16
+     - MCF7_E2+R5020_3hr_Rep8
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2+R5020_3hr_Rep8%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2+R5020_3hr_Rep8.RN.hg38.bigWig>`_
+   * - 17
+     - MCF7_E2_Rep1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep1.RN.hg38.bigWig>`_
+   * - 18
+     - MCF7_E2_Rep2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep2.RN.hg38.bigWig>`_
+   * - 19
+     - MCF7_E2_Rep3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep3.RN.hg38.bigWig>`_
+   * - 20
+     - MCF7_E2_Rep4
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep4%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep4.RN.hg38.bigWig>`_
+   * - 21
+     - MCF7_E2_Rep5
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep5%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep5.RN.hg38.bigWig>`_
+   * - 22
+     - MCF7_E2_Rep6
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep6%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep6.RN.hg38.bigWig>`_
+   * - 23
+     - MCF7_E2_Rep7
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep7%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep7.RN.hg38.bigWig>`_
+   * - 24
+     - MCF7_E2_Rep8
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=MCF7_E2_Rep8%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/MCF7_E2_Rep8.RN.hg38.bigWig>`_
+   * - 25
+     - T47D_E2+Progesterone_3hr_Rep1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep1.RN.hg38.bigWig>`_
+   * - 26
+     - T47D_E2+Progesterone_3hr_Rep2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep2.RN.hg38.bigWig>`_
+   * - 27
+     - T47D_E2+Progesterone_3hr_Rep3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep3.RN.hg38.bigWig>`_
+   * - 28
+     - T47D_E2+Progesterone_3hr_Rep4
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep4%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep4.RN.hg38.bigWig>`_
+   * - 29
+     - T47D_E2+Progesterone_3hr_Rep5
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep5%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep5.RN.hg38.bigWig>`_
+   * - 30
+     - T47D_E2+Progesterone_3hr_Rep6
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep6%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep6.RN.hg38.bigWig>`_
+   * - 31
+     - T47D_E2+Progesterone_3hr_Rep7
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep7%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep7.RN.hg38.bigWig>`_
+   * - 32
+     - T47D_E2+Progesterone_3hr_Rep8
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+Progesterone_3hr_Rep8%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+Progesterone_3hr_Rep8.RN.hg38.bigWig>`_
+   * - 33
+     - T47D_E2+R5020_3hr_Rep1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep1.RN.hg38.bigWig>`_
+   * - 34
+     - T47D_E2+R5020_3hr_Rep2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep2.RN.hg38.bigWig>`_
+   * - 35
+     - T47D_E2+R5020_3hr_Rep3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep3.RN.hg38.bigWig>`_
+   * - 36
+     - T47D_E2+R5020_3hr_Rep4
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep4%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep4.RN.hg38.bigWig>`_
+   * - 37
+     - T47D_E2+R5020_3hr_Rep5
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep5%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep5.RN.hg38.bigWig>`_
+   * - 38
+     - T47D_E2+R5020_3hr_Rep6
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep6%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep6.RN.hg38.bigWig>`_
+   * - 39
+     - T47D_E2+R5020_3hr_Rep7
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep7%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep7.RN.hg38.bigWig>`_
+   * - 40
+     - T47D_E2+R5020_3hr_Rep8
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2+R5020_3hr_Rep8%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2+R5020_3hr_Rep8.RN.hg38.bigWig>`_
+   * - 41
+     - T47D_E2_Rep1
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep1%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep1.RN.hg38.bigWig>`_
+   * - 42
+     - T47D_E2_Rep2
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep2%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep2.RN.hg38.bigWig>`_
+   * - 43
+     - T47D_E2_Rep3
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep3%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep3.RN.hg38.bigWig>`_
+   * - 44
+     - T47D_E2_Rep4
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep4%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep4.RN.hg38.bigWig>`_
+   * - 45
+     - T47D_E2_Rep5
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep5%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep5.RN.hg38.bigWig>`_
+   * - 46
+     - T47D_E2_Rep6
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep6%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep6.RN.hg38.bigWig>`_
+   * - 47
+     - T47D_E2_Rep7
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep7%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep7.RN.hg38.bigWig>`_
+   * - 48
+     - T47D_E2_Rep8
+     - hg38
+     - `UCSC bigWig <http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr21:33038447-33041505&hgct_customText=track%20type=bigWig%20name=T47D_E2_Rep8%20description=%22custom%20bigWig%20track%22%20visibility=full%20bigDataUrl=http://dkucombio.ipdisk.co.kr/publist/VOL1/Public/001_BreastCancerCell/RNAseq/T47D_E2_Rep8.RN.hg38.bigWig>`_
